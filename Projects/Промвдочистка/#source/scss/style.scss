@@ -1,0 +1,302 @@
+@import "nullstyle.scss";
+
+@font-face {
+    font-family: 'Acrom_regular';
+    src: local('Acrom Regular'), local('Acrom-Regular'),
+        url('../fonts/Acrom-Regular.woff2') format('woff2'),
+        url('../fonts/Acrom-Regular.woff') format('woff'),
+        url('../fonts/Acrom-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'Acrom_medium';
+    src: local('AcromMedium'), local('Acrom-Medium'),
+        url('../fonts/Acrom-Medium.woff2') format('woff2'),
+        url('../fonts/Acrom-Medium.woff') format('woff'),
+        url('../fonts/Acrom-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'Acrom_bold';
+    src: local('Acrom Bold'), local('Acrom-Bold'),
+        url('../fonts/Acrom-Bold.woff2') format('woff2'),
+        url('../fonts/Acrom-Bold.woff') format('woff'),
+        url('../fonts/Acrom-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+
+body{
+    font-family: "Acrom_regular", "Acrom_medium", "Acrom_bold";
+}
+.header{
+    position: absolute;
+    width: 1920px;
+    height: 70px;
+    left: 0px;
+    top: 7px;
+}
+.logo{
+    position: absolute;
+    left: 12.5%;
+    right: 83.75%;
+    top: 10%;
+    bottom: 15.71%;
+}
+.company-name{
+    font-family: "Acrom_bold";
+    font-size: 16px;
+    line-height: 24px;
+    position: absolute;
+    left: 18.07%;
+    right: 69.43%;
+    top: 30%;
+    bottom: 35.71%;
+    color: #464646;
+}
+.catalog{
+    position: absolute;
+    width: 201px;
+    height: 51px;
+    left: 607px;
+    top: 8px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 3px solid #0C54A0;
+    border-radius: 100px;
+}
+.catalog-text{
+    position: absolute;
+    width: 86px;
+    height: 22px;
+    left: 642px;
+    top: 23px;
+    font-family: "Acrom_medium";
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #0C54A0;
+}
+.burger-menu{
+    position: absolute;
+    width: 24px;
+    height: 18px;
+    left: 749px;
+    top: 25px;
+}
+.maps{
+position: absolute;
+left: 44.53%;
+right: 54.58%;
+top: 32.86%;
+bottom: 38.57%;
+}
+.email{
+    position: absolute;
+    left: 50.94%;
+    right: 47.76%;
+    top: 32.86%;
+    bottom: 38.57%;
+    opacity: 0.5;
+}
+.mailto{
+    position: absolute;
+    left: 53.44%;
+    right: 35.89%;
+    top: 34.29%;
+    bottom: 41.43%;
+    font-family: "Acrom_regular";
+    color: #464646;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+.tel{
+    position: absolute;
+    left: 70.31%;
+    right: 20.36%;
+    top: 31.43%;
+    bottom: 37.14%;
+    font-family: "Acrom_medium";
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #464646;
+}
+.tel-img{
+    position: absolute;
+    left: 68.23%;
+    right: 30.73%;
+    top: 32.86%;
+    bottom: 38.57%;
+}
+.language{
+position: absolute;
+width: 123px;
+height: 49px;
+left: 1557px;
+top: 9px;
+
+background: #FFFFFF;
+border: 3px solid #F3F8FB;
+border-radius: 20px;
+}
+.eng{
+    position: absolute;
+    left: 81.98%;
+    right: 16.46%;
+    top: 31.43%;
+    bottom: 34.29%;
+    font-family: 'Acrom_regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: right;
+    color: #1A1A1A;
+}
+.ru{
+    position: absolute;
+    left: 84.95%;
+    right: 13.49%;
+    top: 31.43%;
+    bottom: 34.29%;
+    font-family: 'Acrom_medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;    
+    text-align: right;
+    color: #1A1A1A;
+}
+.language2{
+    box-sizing: border-box;
+    position: absolute;
+    width: 62px;
+    height: 49px;
+    left: 1618px;
+    top: 9px;
+    background: #F3F8FB;
+    border: 3px solid #F3F8FB;
+    border-radius: 0px 20px 20px 0px;  
+}
+.border{
+    position: absolute;
+    width: 1440px;
+    height: 0px;
+    left: 240px;
+    top: 69px;
+    border: 2px solid #F3F8FB;
+}
+.main{
+    position: absolute;
+left: 12.45%;
+right: 69.22%;
+top: 1.72%;
+bottom: 97.81%;
+}
+.social{
+    position: absolute;
+    width: 41px;
+    height: 340px;
+    left: 1839px;
+    top: 328px;
+}
+.social{
+    position: absolute;
+    width: 41px;
+    height: 340px;
+    left: 1839px;
+    top: 328px;
+}
+.whatsapp-border{
+    position: absolute;
+    left: 2.44%;
+    right: 0%;
+    top: 0%;
+    bottom: 88.24%;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 14px;    
+}
+.whatsapp{
+    box-sizing: border-box;
+    position: absolute;
+    left: 21.95%;
+    right: 19.51%;
+    top: 2.35%;
+    bottom: 90.59%;
+    opacity: 50%;
+}
+.telegram-border{
+    position: absolute;
+    left: 2.44%;
+    right: 0%;
+    top: 22.06%;
+    bottom: 66.18%;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 14px;
+}
+.telegram{
+    position: absolute;
+    left: 21.56%;
+    right: 25.56%;
+    top: 24%;
+    opacity: 50%;
+}
+.facebook-border{
+    position: absolute;
+    left: 2.44%;
+    right: 0%;
+    top: 44.12%;
+    bottom: 44.12%;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 14px;
+}
+.facebook{
+    position: absolute;
+    left: 19.51%;
+    right: 19.51%;
+    top: 46.47%;
+    bottom: 46.18%;
+}
+.youtube-border{
+    position: absolute;
+    left: 2.44%;
+    right: 0%;
+    top: 66.18%;
+    bottom: 22.06%;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 14px;
+}
+.youtube{
+    position: absolute;
+    left: 19.51%;
+    right: 19.51%;
+    top: 69.12%;
+    bottom: 24.75%;
+}
+.vk-border{
+    position: absolute;
+    left: 0%;
+    right: 2.44%;
+    top: 88.24%;
+    bottom: 0%;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 14px;
+}
+.vk{
+    position: absolute;
+    left: 17.07%;
+    right: 21.95%;
+    top: 90.59%;
+    bottom: 2.06%;
+}
